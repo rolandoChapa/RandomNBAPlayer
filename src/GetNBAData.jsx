@@ -39,7 +39,7 @@ export default function GetNBAData() {
 
     const [playerStats, setPlayerStats] = React.useState({})
 
-    let url = `http://data.nba.net/10s/prod/v1/2021/players/${currentPlayer.personId}_profile.json`
+    let url = `https://data.nba.net/10s/prod/v1/2021/players/${currentPlayer.personId}_profile.json`
 
     React.useEffect(() => {
     	axios.get(url).then((response) => {
