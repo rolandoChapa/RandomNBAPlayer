@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'heebo': ['Heebo', 'sans-serif'],
-        'plusjak': ['Plus Jakarta Sans', 'sans-serif']
+        'plusjak': ['Plus Jakarta Sans', 'sans-serif'],
+        'ibmPlex': ['IBM Plex Mono', 'monospace']
       }
     },
   },
